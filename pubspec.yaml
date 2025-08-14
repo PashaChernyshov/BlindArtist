@@ -1,0 +1,41 @@
+name: blind_artist_game
+description: Blind Artist Game with sound and gallery support
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.4
+  blur: ^3.1.0
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.2
+  flutter_blur: ^0.0.2
+  flutter_staggered_animations: ^1.1.1
+  image_gallery_saver_plus: ^4.0.1
+  material: ^1.0.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/tick.mp3
+    - assets/sounds/win.mp3
+    - assets/images/first_logo.png
+    - assets/images/time.png
+    - 'assets/images/q.png'
+    - 'assets/images/e.png'
+    - 'assets/images/r.png'
+    - 'assets/images/t.png'
+    - 'assets/images/y.png'
+    - 'assets/images/u.png'
+
+  fonts:
+    - family: PixelFont
+      fonts:
+        - asset: assets/fonts/Hardpixel.OTF
